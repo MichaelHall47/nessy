@@ -3,7 +3,7 @@ public class Nessy {
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
 		int bill = 0;
-		System.out.println("do you want a nessy doll");
+		System.out.println("do you want a nessy doll"); //looks good
 		String meal = input.next();
 		if(meal.contentEquals("yes")) {
 			System.out.println("which color would you like");
